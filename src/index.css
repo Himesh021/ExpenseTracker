@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:#b5ea35;
+  font-family: Arial, sans-serif;
+  color: #1f1f1f;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+  line-height: 1.1;
+  color: #1f1f1f;
+}
+
+h1 span {
+  color: #f3f5ed;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.05);
+
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  color: #1f1f1f;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  border: none;
+  background: #f5f7ef;
+  color: #1f1f1f;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #b5ea35;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 18px;
+  background: #b5ea35;
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.summary-total {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+
+.breakdown-item {
+  padding: 14px;
+  border-radius: 18px;
+  background: #f5f7ef;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.currency-value {
+  font-size: 2.5rem;
+  color: #1f1f1f;
+  margin-top: 20px;
+}
+
+.expense-item {
+  background: #f5f7ef;
+  padding: 18px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.expense-item p {
+  margin-bottom: 8px;
+}
+
+.expense-item button {
+  margin-top: 10px;
+  background: #1f1f1f;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+}
+
+.empty-state {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #dcdcdc;
+}
+
+.recharts-tooltip-wrapper {
+  border-radius: 12px;
+}
+.recharts-wrapper {
+  margin: auto;
+}
+.graph-container {
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+}
+
+.bar-fill {
+  width: 55px;
+  background: #FFFF00;
+  border-radius: 18px 18px 0 0;
+  transition: 0.8s ease;
+  box-shadow:
+    0 10px 20px rgba(181, 234, 53, 0.3);
+}
+
+.bar-label {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 768px) {
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+}
