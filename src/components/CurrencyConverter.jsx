@@ -12,7 +12,7 @@ function CurrencyConverter({ total }) {
     )
       .then((response) => response.json())
       .then((data) => {
-        setRates(data.rates);
+        setRates(data.conversion_rates);
         setLoading(false);
       })
       .catch(() => {
