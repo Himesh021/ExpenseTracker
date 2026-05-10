@@ -8,7 +8,7 @@ function CurrencyConverter({ total }) {
 
   useEffect(() => {
     fetch(
-      "https://v6.exchangerate-api.com/v6/0ababe7fa380a3345daf4a58/latest/USD",
+      "https://v6.exchangerate-api.com/v6/0ababe7fa380a3345daf4a58/latest/INR",
     )
       .then((response) => response.json())
       .then((data) => {
