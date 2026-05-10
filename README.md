@@ -4,11 +4,11 @@ A responsive Expense Tracker application built using React and Vite.
 
 ## Live Demo
 
-[Add Your Vercel Link Here]
+[expense-tracker-azure-iota.vercel.app]
 
 ## GitHub Repository
 
-[Add Your GitHub Repository Link Here]
+[https://github.com/Himesh021/ExpenseTracker]
 
 ---
 
@@ -47,7 +47,7 @@ ExchangeRate-API was used to fetch live currency exchange rates.
 API Endpoint Example:
 
 ```bash
-https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD
+https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/INR
 ```
 
 ---
