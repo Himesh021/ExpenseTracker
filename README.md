@@ -1,18 +1,87 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Expense Tracker application built using React and Vite.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Add Your Vercel Link Here]
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Add Your GitHub Repository Link Here]
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ExpenseTracker
-Deployment fix
+## Features
+
+* Add expenses with:
+
+  * Name
+  * Amount
+  * Category
+* Delete expenses
+* Display all expenses in a card/list layout
+* Real-time total expense calculation
+* Category-wise expense breakdown
+* Live currency conversion using ExchangeRate-API
+* Loading and error handling for API requests
+* Responsive design for desktop and mobile screens
+
+---
+
+## Technologies Used
+
+* React
+* Vite
+* JavaScript
+* CSS
+* Recharts
+* ExchangeRate-API
+
+---
+
+## API Used
+
+ExchangeRate-API was used to fetch live currency exchange rates.
+
+API Endpoint Example:
+
+```bash
+https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD
+```
+
+---
+
+## Challenges Faced
+
+* Handling API response structure correctly
+* Fixing React and Recharts dependency conflicts
+* Managing loading and error states
+* Deploying the application successfully on Vercel
+
+---
+
+## Future Improvements
+
+* User authentication
+* Database integration with MongoDB
+* Dark mode support
+* Expense filtering and search
+* Advanced analytics dashboard
+
+---
+
+## Installation
+
+```bash
+git clone <repository-link>
+cd expense-tracker
+npm install
+npm run dev
+```
+
+---
+
+## Deployment
+
+The project is deployed on Vercel.
